@@ -474,7 +474,7 @@ def align_word_ids(texts):
     return label_ids
 
 
-# In[19]:
+# In[26]:
 
 
 def evaluate_one_text(model, sentence):
@@ -499,15 +499,14 @@ def evaluate_one_text(model, sentence):
     prediction_label = [ids_to_labels2[i] for i in predictions]
     print(sentence)
     print(prediction_label)
+    return prediction_label
 
 
-# In[20]:
+# In[37]:
 
 
-text = 'What, no phone? no… More than that, what did you say a while ago? look at me... Have you become disabled? I became an eunuch... Is that what you mean?The eunuch... No, I am the eunuch! what is this sound! Eight, Gozarani! I, Im the eunuch! I- ah ah ah ah ah ah… (No... No way...!! Im an eunuch... Its ridiculous... Kim Doo-han, this guy... This is ridiculous. Its nonsense Hohohohohoho!!!!!!!!! no…)'
-evaluate_one_text(model, text)
-#'Bill Gates is the founder of Microsoft'
-#['B-per', 'I-per', 'O', 'O', 'O', 'O', 'B-org']
+text = "I did a blood donation"
+text2 = evaluate_one_text(model, text)
 
 
 # In[ ]:
