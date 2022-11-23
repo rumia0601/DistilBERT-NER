@@ -3505,10 +3505,8 @@ Transferred to Mediplex Rehab Hospital for further work up .,O O O O O O O O O O
 .,O 
 On arrival to the FICU the patient was intubated and non-sedated .,O O O O O O O O B-TR O O O 
 Past Medical History :,O O O O 
-#NAME?,O B-PR I-PR I-PR I-PR O O O O O 
 "12-15 , s/p XRT ( last tx 2015-04-20 ) , s/p cisplatin ( last dose 3/22 )",O O O B-TR O O O O O O O B-TR O O O O O 
 "- L hydroureter obstruction , s/p R ureteral stent 2016-03-24",O B-PR I-PR I-PR O O B-TR I-TR I-TR O 
-#NAME?,O O B-PR I-PR O B-TR 
 - laser conization of cervix 2004,O B-TR I-TR I-TR I-TR O 
 Social History :,O O O 
 Lives with husband and 4 y.o. son .,O O O O O O O O 
@@ -3564,7 +3562,6 @@ Albumin - 2.3,B-TE O O
 2016-05-13 08:32AM BLOOD,O O B-TE 
 Type - ART Temp - 38.2 Tidal V - 500 PEEP - 5,O O B-TE I-TE O O B-TE I-TE O O B-TE O O 
 FiO2 - 40 pO2 - 104 pCO2 - 50* pH - 7.36 calTCO2 - 29 Base XS - 1,B-TE O O B-TE O O B-TE O O B-TE O O B-TE O O B-TE I-TE O O 
-#NAME?,O O O B-TR 
 2016-05-11 02:08AM BLOOD,O O B-TE 
 Lactate - 1.6,B-TE O O 
 .,O 
@@ -4672,7 +4669,6 @@ He was extubated on 03-24 and was weaned off oxygen slowly from 03-24 to 03-26 w
 4) Hypertension : He was restarted on his atenolol and verapamil once his blood pressure stabilized on 03-25 .,O B-PR O O O O O B-TR I-TR O B-TR O B-TE I-TE I-TE O O O O 
 5) Depression : He was restarted on his paxil on 03-25 and was given 1:1 sitter for suicidal ideation leading up to his suicide leading up to this admission .,O B-PR O O O O O B-TR I-TR O O O O B-TR I-TR I-TR O B-PR I-PR O O O O O O O O O O O 
 He has not had further episodes while he was in the hospital .,O O O O B-PR I-PR O O O O O O O 
-#NAME?,O O O O B-TR O O O 
 "6) Hyperglycemia : Although he has no known history of  diabetes , his elevated FS noted in field with glycosuria prompted fingerstick check but he has not required insulin coverage .",O B-PR O O O O O O O O B-PR O B-PR I-PR I-PR O O O O B-PR O B-TE I-TE O O O O O B-TR I-TR O O 
 7) High amylase : He was admitted on 03-23 with elevated amylase but non-elevated lipase .,O B-PR I-PR O O O O O O O B-PR I-PR O B-PR I-PR O 
 This likely is not concerning of pancreatic process .,O O O O O O O O O 
@@ -5496,18 +5492,13 @@ Unclear if hazy lesions significant or if this was cocaine induced vasospasm .,O
 "- continue ASA , statin , Plavix ; will hold BB given recent cocaine use ( ? can consider labetalol if necessary ) , Integrillin for 18 hours",O O B-TR O B-TR O B-TR O O O B-TR O O O O O O O O B-TR O O O O B-TR O O O 
 - CK negative .,O B-TE O O 
 TN WNL .,B-TE O O 
-#NAME?,O B-TE I-TE I-TE O 
 "2. CHF : EF 25% on Echo , states he takes lasix at home",O B-PR O B-TE O O B-TE O O O O B-TR O O 
 - Started lisinopril .,O O B-TR O 
 - Consider repeat Echo in 1 month and Quincy Medical Center - V/ICD per discretion of primary cardiologist .,O O B-TE I-TE O O O O O O O O B-TR O O O O O O 
-#NAME?,O O O O O O O O B-PR 
 - Low Na diet with 1 liter fluid restriction,O B-TR I-TR I-TR O B-TR I-TR I-TR I-TR 
-#NAME?,O O O O O O O O O O B-TE I-TE 
 3. Rhythm : No ectopy post cath/MI,O B-TE O O B-PR I-PR I-PR 
 "4. DM : on metformin at home , will hold given cath / dye adn cover with SSI",O B-PR O O B-TR O O O O O O B-TR I-TR I-TR O O O B-TR 
 "5. Cocaine use : last use this morning , no BB given this ; considered using CCB / phentolamine if chest pain recurs .",O O O O O O O O O O B-TR O O O O O B-TR O B-TR O B-PR I-PR O O 
-#NAME?,O O O B-TR O O O O O O 
-#NAME?,O O O O O O O O O 
 "6. EtOH use : unclear how much , monitor on CIWA for signs of withdrawal , ativan prn",O O O O O O O O O O B-TE O O O B-PR O B-TR O 
 -- CIWAs were 0 throughout admission,O B-TE O O O O 
 7. Hyperlipidemia : on lipitor 80 .,O B-PR O O B-TR O O 
@@ -7476,7 +7467,6 @@ He received one dose of furosemide in the ICU and was transferred to the floor t
 Felt likely 03-07 the sulfa moiety of the furosemide .,O O O B-TR I-TR O O B-TR I-TR O 
 "Plan for pt to complete total of 28 day course of therapy for PCP , James will be completed on 01-16 .",O O O O O O O O O O O B-TR O B-PR O O O O O O O O 
 "5) Anemia - previous w/u c/w ACD ( elev ferritin , low transferrin saturation ) .",O B-PR O B-TE I-TE O B-PR O B-PR I-PR O B-PR I-PR I-PR O O 
-#NAME?,O B-TE I-TE O O 
 "6) ARF - Cr mildly elevated on tx to ICU , u lytes c/w prerenal azotemia , which resolved w/ IVF .",O B-PR O B-TE B-PR I-PR O O O O O B-TE I-TE O B-PR I-PR O O O O B-TR O 
 "7) hyponatremia - also hyponatremic on transfer , resolved w/ ivf .",O B-PR O O B-PR O O O O O B-TR O 
 "8) CAD - w/ abnl EF , however pt tolerated aggressive fluid resusciation w/o significant hypoxia .",O B-PR O O B-PR I-PR O O O O B-TR I-TR I-TR O B-PR I-PR O 
@@ -10103,11 +10093,6 @@ Past Medical History :,O O O O
 "- Lung cancer - Non-small cell lung cancer stage IIIA , status post weekly carboplatin and Taxol chemotherapy with XRT for seven weeks followed by surgery on 2015-04-14 .",O B-PR I-PR O B-PR I-PR I-PR I-PR I-PR I-PR O O O B-TR I-TR O B-TR I-TR O B-TR O O O O O B-TR O O O 
 "- CAD - s/p inferior STEMI 12-03 , stent to L Cx",O B-PR O O B-PR I-PR O O B-TR I-TR I-TR I-TR 
 - CHF ( EF 55% on 05-04 ),O B-PR O B-TE O O O O 
-#NAME?,O B-PR 
-#NAME?,O B-PR I-PR 
-#NAME?,O B-PR 
-#NAME?,O B-PR I-PR I-PR O B-TR 
-#NAME?,O O B-TR I-TR 
 "Social History : non-smoker , occasional etoh , no drugs",O O O O O O O O O O 
 Family History : father and mother with CAD,O O O O O O O B-PR 
 Physical Exam :,O O O 
@@ -11988,7 +11973,6 @@ Extremities :,O O
 SILT,O 
 R/U/M LUE,O O 
 Bilateral lower extremities :,O O O O 
-#NAME?,O O O O O O O B-PR I-PR O O 
 Brief Hospital Course :,O O O O 
 Mr. Steadman is a 25 year old man who presented to the The Hospital for Orthopedics on,O O O O O O O O O O O O O O O O O 
 2019-10-10 via ambulance after falling 15-20 feet onto concrete .,O O O O O O O O O O 
@@ -17092,35 +17076,15 @@ A/P :,O O
 Pt is a moderate risk for a needed emergent non-cardiac procedure .,O O O O O O B-TR I-TR I-TR I-TR I-TR O 
 "Pt is medically cleared for procedure  , likely has some mile rate related ischemia .",O O O O O B-TR O O O B-PR I-PR I-PR I-PR I-PR O O 
 1. Cards :,O O O 
-#NAME?,O B-TR I-TR O B-TE I-TE O O 
 --- No real utility in MIBI / cath prior to procedure gien previous caths with no significant lesions to be intervened on .,O O O O O B-TR O B-TE O O B-TR O B-TE I-TE O O B-PR I-PR O O O O O 
 "--- V-Tach : pt has AICD in place , however b-blocker should contorl Vtach for now .",O B-PR O O O B-TR O O O O B-TR O O B-PR O O O 
-#NAME?,O B-TR I-TR O B-TR O O B-PR 
-#NAME?,O O B-TR O B-PR O O O B-PR I-PR O B-TR O O 
-#NAME?,O O B-TR O B-TR 
-#NAME?,O B-PR O O O B-TE 
 2. COPD / Restrictive lung disease :,O B-PR O B-PR I-PR I-PR O 
-#NAME?,O B-TR O B-TR O 
-#NAME?,O O O O B-TR O 
-#NAME?,O O B-PR I-PR O O O O B-PR I-PR O B-TR I-TR 
-#NAME?,O B-TR I-TR O B-PR 
 3. Hip fracture :,O B-PR I-PR O 
-#NAME?,O B-TR I-TR O B-TR O B-TR 
-#NAME?,O B-TR O O O O O O O O O 
-#NAME?,O O O O O O O 
 4. Anemia :,O B-PR O 
-#NAME?,O B-TE I-TE 
-#NAME?,O B-TE 
-#NAME?,O O O B-TR O O O B-TE O O 
 5. Hypokalemia :,O B-PR O 
 --- 60IV K now,O B-TR I-TR O 
-#NAME?,O O B-TR I-TR 
-#NAME?,O O B-TE O O 
 6. Cellulitis :,O B-PR O 
-#NAME?,O O B-TR 
-#NAME?,O O O O B-TE O O 
 7. DM :,O B-PR O 
-#NAME?,O B-TR O O B-TR I-TR O 
 8. PPx :,O B-TR O 
 "--- Protonix , Lovenox , R boot as per CMED CCU",O B-TR O B-TR O B-TR I-TR O O O O 
 9. Diet :,O O O 
@@ -17171,8 +17135,6 @@ Lung sounds fairly clear .,O O O O O
 "On Blake , Nancy pe less likely",O O O O O O O 
 - atrovent standing .,O B-TR O O 
 prn albuterol only given A fib with RVR,O B-TR O O B-PR I-PR O B-PR 
-#NAME?,O B-TR I-TR 
-#NAME?,O O O O O O 
 Fever :,B-PR O 
 In the ICU .,O O O O 
 "Had received unasyn , vanc , zosyn during hospital course for cellulitis and other unclear reasons , including possible vent associated pna .",O O B-TR O B-TR O B-TR O O O O B-PR O O O O O O O B-PR I-PR I-PR O 
@@ -17184,8 +17146,6 @@ No abx unless source found,O B-TR O O O
 Now rate controlled on metop 125 tid and dilt .,O O O O B-TR O O O B-TR O 
 30 QID .,O O O 
 Titrate prn .,O O O 
-#NAME?,O O B-TR I-TR 
-#NAME?,O O B-TR I-TR O B-TR I-TR O O O O O O 
 "CAD : on asa , b blocker , ace .",B-PR O O B-TR O B-TR I-TR O B-TR O 
 No statin .,O B-TR O 
 need to clear with family,O O O O O 
@@ -17195,8 +17155,6 @@ Possible anemia 03-02 operative blood loss .,O B-PR O B-PR I-PR I-PR O
 Follow hct daily Goal > 28,O B-TE O O O O 
 Neck : never had c spine cleared by neurosurg .,O O O O O O O O O O 
 "Had fall pta with ? fx on initial CT , neg fx on f/u ct .",O O O O O B-PR O B-TE I-TE O O B-PR O B-TE I-TE O 
-#NAME?,O B-TE I-TE I-TE I-TE O 
-#NAME?,O O O O O O O O B-TR I-TR 
 "Overnight on pt 's first evening on the floor , she had episode of desaturation with inc O2 requirement ( 4L -> 6L -> sating 91% on NRB ) - CXR with worsening - non responsive to lasix .",O O O O O O O O O O O O O O B-PR O B-PR I-PR I-PR O O O O O B-TE O O B-TR O O B-TE O B-PR O O O O B-TR O 
 Family meeting held and pt made clear wishes after extubation that she does not want to be intubated again and made DNR / DNI .,O O O O O O O O O B-TR O O O O O O O O O O O B-TR O B-TR O 
 No BIPAP .,O B-TR O 
@@ -17956,19 +17914,10 @@ HPI :,O O
 ROS : patient unable to communicate at current time,O O O O O O O O O 
 Past Medical History :,O O O O 
 PMH :,O O 
-#NAME?,O B-PR O O B-PR I-PR I-PR I-PR 
 "- CVA x 2 , 1970 and 1996",O B-PR O O O O O O 
-#NAME?,O B-PR 
-#NAME?,O B-PR 
-#NAME?,O B-PR O B-TE O 
-#NAME?,O B-PR O O B-TR I-TR 
 "- renal cell ca , s/p left nephrectomy 1992",O B-PR I-PR I-PR O O B-TR I-TR O 
-#NAME?,O B-PR 
 "- dementia , since 2000 , baseline MMSE 21/29",O B-PR O O O O B-TE I-TE O 
-#NAME?,O O O O B-PR I-PR I-PR O B-TR 
 - moderate R sided macular degeneration,O B-PR I-PR I-PR I-PR I-PR 
-#NAME?,O B-PR 
-#NAME?,O O B-TR I-TR I-TR I-TR 
 Social History :,O O O 
 Social hx : came to the States 10 yrs ago with his wife .,O O O O O O O O O O O O O O 
 Robert a daughter who lives in Wareham .,O O O O O O O O 
@@ -18046,12 +17995,6 @@ CAD :,B-PR O
 He was not taking any PO medications per Hunt Center Rehab so all medications were held .,O O O O B-TR I-TR I-TR O O O O O B-TR I-TR O O O 
 Medications on Admission :,O O O O 
 Meds :,O O 
-#NAME?,O B-TR 
-#NAME?,O B-TR 
-#NAME?,O B-TR 
-#NAME?,O B-TR 
-#NAME?,O B-TR 
-#NAME?,O B-TR 
 Discharge Disposition :,O O O 
 Expired,O 
 Discharge Diagnosis :,O O O 
@@ -19312,7 +19255,6 @@ Pulmonary : clear anteriorly .,O O O O O
 decrease breath sounds bases .,B-PR I-PR I-PR I-PR O 
 "Cardiac : RRR , nl . S1S2 , soft holosytolic murmur apex",O O O O O O O O B-PR I-PR I-PR I-PR 
 "Abdomen : soft , NT/ND , normoactive bowel sounds , no masses or organomegaly noted .",O O O O B-PR O O O O O O B-PR O B-PR O O 
-#NAME?,O B-TR I-TR 
 Extremities : Left arm AVF,O O B-TR I-TR I-TR 
 1+ trace edemalymphadenopathy noted .,B-PR I-PR I-PR O O 
 "Skin : no rashes , small decubit in the back .",O O O B-PR O B-PR I-PR I-PR I-PR I-PR O 
@@ -26141,7 +26083,6 @@ He also complains of chronic photophobia which is unchanged .,O O O O B-PR I-PR 
 "He denied visual changes , lightheadedness of dizziness currently , neck stiffness , or pain in any other area .",O O B-PR I-PR O B-PR O B-PR O O B-PR I-PR O O B-PR I-PR I-PR I-PR I-PR O 
 PAST MEDICAL HISTORY :,O O O O 
 1. Insulin-dependent diabetes .,O B-PR I-PR O 
-#NAME?,O O O O O O 
 2. Depression .,O B-PR O 
 3. Asthma .,O B-PR O 
 4. Alcohol abuse .,O O O O 
