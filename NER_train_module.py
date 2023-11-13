@@ -8,38 +8,24 @@ import warnings
 warnings.filterwarnings('ignore')
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 from tqdm import tqdm
-import transformers
 from transformers import DistilBertForTokenClassification
-from torch.optim import AdamW
 import torch
 import torch.nn as nn
 from torch.optim import SGD
-import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score,f1_score, precision_score, recall_score
-import re
-from torchcrf import CRF
 
-from transformers import AutoTokenizer, AutoModelForMaskedLM
+from transformers import AutoTokenizer
 
 #import part
-
-using_biobert = False #biobert option
-using_bilstmcrf = True #biLSTM + CRF option
 
 
 # In[2]:
 
 
-if using_biobert == False:
-    N = 43823 #columns of dataset
-    df = pd.read_csv("NER_dataset.csv", encoding="cp949").sample(frac=1)[:N] #load dataset
-else: #using_biobert == True
-    N = 458421 #columns of dataset
-    df = pd.read_csv("NER_dataset_preprocessed.csv", encoding="cp949").sample(frac=1)[:N] #load dataset
+N = 43823 #columns of dataset
+df = pd.read_csv("NER_dataset.csv", encoding="cp949").sample(frac=1)[:N] #load dataset
 
 #change field name
 df.rename(columns = {'text':'sentence', 'labels':'tags'}, inplace = True)
@@ -104,22 +90,7 @@ class DistilbertNER(nn.Module):
             raise ValueError('Classification layer dimension should be at least 1')
         #exception handling part
             
-        if using_biobert == False :        
-            self.pretrained = DistilBertForTokenClassification.from_pretrained("distilbert-base-uncased", num_labels = tokens_dim) #for using distilBERT model
-        else :
-            self.pretrained = AutoModelForMaskedLM.from_pretrained("dmis-lab/biobert-base-cased-v1.2", num_labels = tokens_dim) #for using bioBERT model
-       
-        if using_bilstmcrf == True :
-            hidden_size=768
-            num_classes=7 #7 labels
-            dr_rate=0.3
-    
-            self.dropout = nn.Dropout(dr_rate)
-            self.bilstm = nn.LSTM(hidden_size, (hidden_size) // 2, dropout=dr_rate, batch_first=True, bidirectional=True)
-            self.position_wise_ff = nn.Linear(hidden_size, num_classes)
-            self.crf = CRF(num_tags=num_classes, batch_first = True)
-    
-            #set the output of each token classifier = unique_lables
+        self.pretrained = DistilBertForTokenClassification.from_pretrained("distilbert-base-uncased", num_labels = tokens_dim) #for using distilBERT model    
 
     def forward(self, input_ids, attention_mask, labels = None): #define the way for getting ouput by given input
         if labels == None:
@@ -351,10 +322,7 @@ for df in [df_train, df_dev, df_test]:
 # In[14]:
 
 
-if using_biobert == False :
-    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased") #needed to useing distilBERT model
-else :
-    tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.2", model_max_length = 512) #needed to useing bioBERT model
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased") #needed to useing distilBERT model
 
 
 # In[15]:
@@ -371,7 +339,6 @@ for string in text:
         text[i - 1] = "nan"
 
 text_tokenized = tokenizer(text, padding = "max_length", truncation = True, return_tensors = "pt")
-#text_tokenized = text_tokenized.remove_columns(books_dataset["train"].column_names) #needed to useing bioBERT tokenizer
 
 #map tokens to corresponding words
 word_ids = text_tokenized.word_ids()
@@ -407,24 +374,14 @@ optimizer = SGD(model.parameters(), lr=lr, momentum = 0.9)
 
 #MAIN
 
-if using_biobert == False :
-    parameters = {
-        "model": model,
-        "train_dataset": train_dataset,
-        "dev_dataset" : dev_dataset,
-        "optimizer" : optimizer,
-        "batch_size" : 16,
-        "epochs" : 5
-    }
-else :
-    parameters = {
-        "model": model,
-        "train_dataset": train_dataset,
-        "dev_dataset" : dev_dataset,
-        "optimizer" : optimizer,
-        "batch_size" : 8, #to avoid out of memory error
-        "epochs" : 5
-    }
+parameters = {
+    "model": model,
+    "train_dataset": train_dataset,
+    "dev_dataset" : dev_dataset,
+    "optimizer" : optimizer,
+    "batch_size" : 16,
+    "epochs" : 5
+}
 
 if learn == True: #do train & test if NER_model not exist
     train_loop(**parameters)
